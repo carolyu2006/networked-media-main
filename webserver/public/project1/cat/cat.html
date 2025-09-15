@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>🐱 My Cats!</title>
+    <link rel="stylesheet" href="../style.css" />
+    <style>
+      .cat-image {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin: 10px;
+        border-radius: 10px;
+      }
+      .cat-image-large {
+        /* width: 400px; */
+        height: 400px;
+        object-fit: cover;
+        margin: 10px;
+        border-radius: 10px;
+      }
+
+      .cat-image-container {
+        text-align: center;
+      }
+
+      .cat-container {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>🐱 My Cats! 🐱</h1>
+    <div class="content">
+      <h2>Hellow!</h2>
+      <p>These are my two cats! 🐱</p>
+      <p>Come get to know them! 🐱</p>
+
+      <img src="../images/cats/cats-3.JPG" alt="Cat" class="cat-image-large" />
+      <img src="../images/cats/cats-4.JPG" alt="Cat" class="cat-image-large" />
+      <img src="../images/cats/cats-1.JPG" alt="Cat" class="cat-image-large" />
+      <img src="../images/cats/cats-2.JPG" alt="Cat" class="cat-image-large" />
+
+      <br />
+      <div class="cat-container">
+        <div class="cat-image-container">
+          <p>⬇️</p>
+          <a href="cat1.html"
+            ><img src="../images/cats/1.JPG" alt="Cat" class="cat-image"
+          /></a>
+        </div>
+
+        <div class="cat-image-container">
+          <p>⬇️</p>
+          <a href="cat2.html"
+            ><img src="../images/cats/2.JPG" alt="Cat" class="cat-image"
+          /></a>
+        </div>
+      </div>
+
+      <br />
+      <br />
+      <a href="../index.html" class="choice-link">🐟 Back 🐟</a>
+    </div>
+  </body>
+</html>
