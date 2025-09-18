@@ -12,6 +12,8 @@ body {
 
 a {
   display: inline-block;
+  text-decoration: none;
+  margin: -2px -.5px;
 }
 
 h1 {
