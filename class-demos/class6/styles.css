@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+
+p {
+    color: white; 
+    background-color: rgb(255, 207, 207);
+    font-size: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.blue {
+    color: blue;
+    width: 300px;
+}
+
+#important {
+    position: absolute;
+    left: 20px;
+    margin-left: 0%;
+    bottom: 0; 
+    top: 0;
+}
